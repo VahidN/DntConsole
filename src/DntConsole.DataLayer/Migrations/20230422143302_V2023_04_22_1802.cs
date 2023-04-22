@@ -5,7 +5,7 @@
 namespace DntConsole.DataLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class V2023_04_20_1442 : Migration
+    public partial class V2023_04_22_1802 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

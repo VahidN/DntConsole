@@ -48,7 +48,7 @@ public static class ConfigureDbContext
         /*
         When the connection is opened, a new database is created in memory. 
         This database is destroyed when the connection is closed. 
-        This means, you must keep the connection open until the test ends.  
+        This means, we must keep the connection open until the tests ends.  
         Thus, the database won't be destroyed during the execution of the tests.
          */
         connection.Open();

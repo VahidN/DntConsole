@@ -10,14 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DntConsole.DataLayer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230420111253_V2023_04_20_1442")]
-    partial class V2023_04_20_1442
+    [Migration("20230422143302_V2023_04_22_1802")]
+    partial class V2023_04_22_1802
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "7.0.4");
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.5");
 
             modelBuilder.Entity("DntConsole.Entities.BlogPost", b =>
                 {
