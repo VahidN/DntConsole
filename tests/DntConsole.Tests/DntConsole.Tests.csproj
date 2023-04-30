@@ -9,9 +9,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\*.*" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="..\DntConsole.App\appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\src\DntConsole.App\appsettings.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DntConsole.App\DntConsole.App.csproj" />
+    <ProjectReference Include="..\..\src\DntConsole.App\DntConsole.App.csproj" />
   </ItemGroup>
 </Project>

@@ -3,7 +3,7 @@ using DntConsole.IoCConfig;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace DntFeeds.Tests;
+namespace DntConsole.Tests;
 
 internal static class TestsAppFactory
 {

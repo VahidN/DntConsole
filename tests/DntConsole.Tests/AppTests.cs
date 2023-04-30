@@ -1,7 +1,7 @@
 using DntConsole.Services.Contracts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DntFeeds.Tests;
+namespace DntConsole.Tests;
 
 [TestClass]
 public class AppTests

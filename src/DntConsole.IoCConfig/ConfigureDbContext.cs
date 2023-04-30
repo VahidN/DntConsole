@@ -46,9 +46,9 @@ public static class ConfigureDbContext
                       };
         var connection = new SqliteConnection(builder.ConnectionString);
         /*
-        When the connection is opened, a new database is created in memory. 
-        This database is destroyed when the connection is closed. 
-        This means, we must keep the connection open until the tests ends.  
+        When the connection is opened, a new database is created in memory.
+        This database is destroyed when the connection is closed.
+        This means, we must keep the connection open until the tests ends.
         Thus, the database won't be destroyed during the execution of the tests.
          */
         connection.Open();

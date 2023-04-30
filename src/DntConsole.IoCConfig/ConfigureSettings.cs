@@ -8,6 +8,6 @@ public static class ConfigureSettings
 {
     public static void AddSettings(this IServiceCollection services, IConfiguration configuration)
     {
-        services.Configure<AppConfig>(options => configuration.Bind(options));
+        services.Configure<AppConfig>(configuration.Bind);
     }
 }
