@@ -198,6 +198,10 @@ dotnet_diagnostic.VSTHRD111.severity = suggestion
 dotnet_diagnostic.VSTHRD114.severity = error
 dotnet_diagnostic.VSTHRD200.severity = suggestion
 
+dotnet_diagnostic.RS0030.severity = warning
+dotnet_diagnostic.RS0031.severity = warning
+dotnet_diagnostic.RS0035.severity = error
+
 dotnet_separate_import_directive_groups = false
 dotnet_sort_system_directives_first = true
 dotnet_style_allow_multiple_blank_lines_experimental = false
